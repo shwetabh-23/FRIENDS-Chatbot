@@ -1,0 +1,10 @@
+{
+    "SMOKE_TEST" : "True",
+    "data_path": "D:\\ML-Projects\\FRIENDS-Chatbot\\Data\\Friends.csv",
+    "n" : 7,
+    "batch_size" : 8,
+    "model_name" : "microsoft/DialoGPT-small",
+    "config_name" : "microsoft/DialoGPT-small",
+    "tokenizer_name" : "microsoft/DialoGPT-small"
+    
+}
