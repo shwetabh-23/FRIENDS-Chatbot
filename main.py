@@ -26,7 +26,6 @@ save_dir = hyperparameters['save_dir']
 save_models_dir = hyperparameters['saved_model_dir']
 save_tokens_dir = hyperparameters['saved_tokens_dir']
 device = 'cuda' if torch.cuda.is_available() else 'cpu'
-device = 'cpu'
 data = pd.read_csv(data_path)
 
 tokenizer = AutoTokenizer.from_pretrained(tokenizer_name)
